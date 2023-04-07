@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ece.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carosal links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                          <a class="navbar-brand fw-bold fs-3">Comforty</a>
+                          <form class="d-flex" role="search">
+                            <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark me-2 cart-btn" type="submit"><i class="fa-solid fa-cart-shopping text-dark-emphasis">cart</i></button>
+                            <button class="btn btn-outline-dark me-4" type="submit"><i class="fa-solid fa-heart text-dark-emphasis"></i></button>
+                            <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-user text-dark-emphasis"></i></button>
+                          </form>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                    <div class="dropdown">
+                                            <button class="btn dropdown border-secondary menu-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-bars"><span class="ps-2 menu-text">All category</span></i>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="#">Shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link">Products</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link">Reviews</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link">About</a>
+                                        </li>
+                                    </ul>
+                                    <div>
+                                                <p class="mt-3 pe-2">Contact- +91 (7977508693)</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </nav>
+                </div>
+          </div>
+        </div>
+    </section>
+    <section>
+            
+    </section>
+    <section class="py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" style="margin-top: 15% !important;">
+            <h1 class="text-capitalize" style="font-size: 65px;"><p class="fs-6 fw-bold mb-2">welcome to chairy</p> best furniture<br> collection for your<br> interior </h1>
+            <button class="btn btn-primary my-2" type="submit">Button</button>
+          </div>
+          <div class="col-lg-6">
+            <!-- <img src="./ecom image/offer-img.png" style="width: 100px; height: 100px; left: 68%; top: 28%;" class="position-absolute offer-img ms-5"  alt=""> -->
+            <img class="banner-img"  src="./ecom image/banner.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-5 pb-5 bg-body-tertiary">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <h3 class="mb-3 text-capitalize fw-bold">features products</h3>
+              </div>
+              <div class="col-6 text-right">
+                  <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                      <i class="fa fa-arrow-left"></i>
+                  </a>
+                  <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                      <i class="fa fa-arrow-right"></i>
+                  </a>
+              </div>
+              <div class="col-12">
+                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="row">
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair1.jpg">
+                                          <div class="card-body ">
+                                              <h5 class="card-title">Library stool chair </h5>
+                                              <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="ecom image/chair2.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">wooden stool chair</h5>
+                                              <p class="card-text fs-5">$20 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair3.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">fancy stool chair</h5>
+                                              <p class="card-text fs-5">$40 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair4.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">wooden stool chair</h5>
+                                              <p class="card-text fs-5">$50 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row">
+  
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair5.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">wooden stool chair</h5>
+                                              <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair6.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">library stool chair</h5>
+                                              <p class="card-text fs-5">$30 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair7.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">fancy stool chair</h5>
+                                              <p class="card-text fs-5">$20 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair8.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">library stool chair</h5>
+                                              <p class="card-text fs-5">$50 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row">
+  
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair1.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">wooden stool chair</h5>
+                                              <p class="card-text fs-5">$30 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair2.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">fancy stool chair</h5>
+                                              <p class="card-text fs-5">$40 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair3.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">libary stool chair</h5>
+                                              <p class="card-text fs-5">$20<i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                      <div class="card border-light">
+                                          <img class="img-fluid" alt="100%x280" src="./ecom image/chair4.jpg">
+                                          <div class="card-body">
+                                              <h5 class="card-title">wooden stool chair</h5>
+                                              <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="py-5 bg-body-tertiary">
+    <div class="container">
+        <h1 class="text-capitalize text-center">our products</h1>
+        <ul class="d-flex fs-5 fw-bold py-3">
+            <li class="text-capitalize ms-3 me-3">all</li>
+            <li class="text-capitalize ms-3 me-3">newest</li>
+            <li class="text-capitalize ms-3 me-3">trending</li>
+            <li class="text-capitalize ms-3 me-3">best sale</li>
+            <li class="text-capitalize ms-3 me-3">featured</li>
+        </ul>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair4.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair2.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair3.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-5">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair7.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-5">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair8.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-5">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair6.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-5">
+                <div class="card border-light">
+                    <img class="img-fluid" alt="100%x280" src="./ecom image/chair5.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">wooden stool chair</h5>
+                        <p class="card-text fs-5">$10 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="bg-body-tertiary">
+    <div class="container">
+        <h3 class="text-capitalize fw-bold py-4">what client say about us</h3>
+        <div class="row">
+           <div class="col-lg-6">
+                <div class="card card-body my-3" style="border-radius: 15px;">
+                    <p class="card-text ps-2 py-2" style="line-height: 1.9;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural </p>
+                    <img src="./ecom image/test-img4.png" style="width: 10%;"/>
+                    <h6 class="text-capitalize" style="padding-left: 12% !important; margin-top: -7%;">kritson watson</h6>
+                    <p class="text-capitalize ps-5">web developer</p>
+                </div>
+           </div>
+           <div class="col-lg-6">
+                <div class="card card-body my-3" style="border-radius: 15px;">
+                    <p class="card-text ps-2 py-2" style="line-height: 1.9;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural </p>
+                    <img src="./ecom image/test-img4.png" style="width: 10%;"/>
+                    <h6 class="" style="padding-left: 12% !important; margin-top: -7%;">kritson watson</h6>
+                    <p class="text-capitalize ps-5">web developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="mb-3 text-capitalize fw-bold">features products</h3>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-12">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div>
+                            <div class="card border-light">
+                                <img class="img-fluid" alt="100%x280" src="./ecom image/chair8.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Library stool chair </h5>
+                                    <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <div class="card border-light">
+                                <img class="img-fluid" alt="100%x280" src="./ecom image/chair1.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Library stool chair </h5>
+                                    <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <div class="card border-light">
+                                <img class="img-fluid" alt="100%x280" src="./ecom image/chair2.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Library stool chair </h5>
+                                    <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <div class="card border-light">
+                                <img class="img-fluid" alt="100%x280" src="./ecom image/chair3.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Library stool chair </h5>
+                                    <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"><div>
+                        <div class="card border-light">
+                            <img class="img-fluid" alt="100%x280" src="./ecom image/chair4.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Library stool chair </h5>
+                                <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div></div>
+                    <div class="item"><div>
+                        <div class="card border-light">
+                            <img class="img-fluid" alt="100%x280" src="./ecom image/chair5.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Library stool chair </h5>
+                                <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div></div>
+                    <div class="item"><div>
+                        <div class="card border-light">
+                            <img class="img-fluid" alt="100%x280" src="./ecom image/chair6.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Library stool chair </h5>
+                                <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div></div>
+                    <div class="item"><div>
+                        <div class="card border-light">
+                            <img class="img-fluid" alt="100%x280" src="./ecom image/chair7.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Library stool chair </h5>
+                                <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div></div>
+                    <div class="item"><div>
+                        <div class="card border-light">
+                            <img class="img-fluid" alt="100%x280" src="./ecom image/chair8.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Library stool chair </h5>
+                                <p class="card-text fs-5">$15 <i class="fa-solid fa-cart-plus float-end fs-3 text-danger"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <section class="bg-white text-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 px-5 py-5">
+          <h2 class="text-capitalize">chairy</h2>
+          <p>At Stack , Coustumer Come Frist And There Satisfaction Is Not Just Our Top Priority But Also The Driving Force For Us , Every Single Day.</p>
+          <span class="fs-3"> 
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter ps-3"></i>
+            <i class="fa-brands fa-linkedin ps-3"></i>
+            <i class="fa-brands fa-github ps-3"></i>
+            <p class="fs-6 py-3">Copy Rights || All Rightd Reserved</p>
+          </span>
+        </div>
+        <div class="col-lg-3 py-5">
+          <h4 class="text-capitalize fw-bold">category</h4>
+                  <ul class="list-style">
+                      <li class="py-2 fw-bold last-li"><i class="fa-solid fa-building pe-2"></i>28 green tower, new york city, USA</li>
+                      <li class="py-2 fw-bold last-li"><i class="fa-solid fa-square-phone pe-2"></i>+84 846 250 592</li>
+                      <li class="py-2 fw-bold last-li"><i class="fa-solid fa-envelope pe-2"></i>contact@stack.com</li>
+                  </ul>
+        </div>
+        <div class="col-lg-3 of py-5">
+          <h4 class="text-capitalize fw-bold">support</h4>
+                <ul class="list-style">
+                      <li class="py-2 fw-bold last-li text-capitalize">help & support </li>
+                      <li class="py-2 fw-bold last-li text-capitalize">term & condition</li>
+                      <li class="py-2 fw-bold last-li text-capitalize">testimonial</li>
+                      <li class="py-2 fw-bold last-li text-capitalize">privacy policy</li>
+                      <li class="py-2 fw-bold last-li text-capitalize">help</li>
+                 </ul>
+        </div>
+        <div class="col-lg-3 py-5">
+          <h3 class="text-uppercase ">news letter</h3>
+          <div class="input-group flex-nowrap py-1">
+            <input type="text" class="form-control text-uppercase" placeholder="your email address" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <button type="button" class="btn btn-primary my-2">subscribe</button>
+          <p class="text-capitalize">To Be One Of The Most Trusted Globally Reputed Financial Distribution Companies</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+<!-- owl carosal links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+ $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+</body>
+</html>
