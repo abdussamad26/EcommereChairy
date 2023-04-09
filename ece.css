@@ -34,7 +34,7 @@ ul {
     right: 0;
     padding-right: 20px;
   }
-@media (max-width : 767px) {
+@media (max-width : 600px) {
     .banner-img {
         
         width: 100%;
