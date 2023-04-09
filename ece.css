@@ -36,8 +36,8 @@ ul {
   }
 @media (max-width : 767px) {
     .banner-img {
-        margin-left: -10%;
-        width: 115%;
+        
+        width: 100%;
     }
     li {
         font-size: 10px;
@@ -58,11 +58,26 @@ ul {
     .nav-item {
         font-size: 15px;
     }
+    .search-btn {
+       width: 6rem !important;
+    }
+    .cart-btn {
+      margin-right: 10% !important; 
+      position: relative;
+      right:10%;
+    }
+    .like-btn {
+      position: relative;
+      right: 15%;
+    }
+    .contact-btn {
+      position: relative;
+      right: 18%;
+    }
     .navbar-toggler {
-        position: absolute;
-        left: 25%;
-        bottom: 140%;
-        border: none;
+      position: relative;
+      left: 90%;
+      margin-top: -19%;
     }
     .offer-img {
       position: relative;
