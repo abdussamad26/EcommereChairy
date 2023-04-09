@@ -59,11 +59,13 @@ ul {
     }
     .search-btn {
        width: 6rem !important;
+       position: relative;
+       right: 3%;
     }
     .cart-btn {
       margin-right: 10% !important; 
       position: relative;
-      right:10%;
+      right:16%;
       width: 5rem;
     }
     .text-cart {
@@ -71,15 +73,15 @@ ul {
     }
     .like-btn {
       position: relative;
-      right: 18%;
+      right: 24%;
     }
     .contact-btn {
       position: relative;
-      right: 24%;
+      right: 30%;
     }
     .navbar-toggler {
       position: relative;
-      left: 85%;
+      left: 80%;
       margin-top: -19%;
     }
     .offer-img {
