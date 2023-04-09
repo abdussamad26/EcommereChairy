@@ -34,9 +34,8 @@ ul {
     right: 0;
     padding-right: 20px;
   }
-@media (max-width : 600px) {
+@media (max-width : 767px) {
     .banner-img {
-        
         width: 100%;
     }
     li {
@@ -65,18 +64,22 @@ ul {
       margin-right: 10% !important; 
       position: relative;
       right:10%;
+      width: 5rem;
+    }
+    .text-cart {
+      font-size: 12px !important;
     }
     .like-btn {
       position: relative;
-      right: 15%;
+      right: 18%;
     }
     .contact-btn {
       position: relative;
-      right: 18%;
+      right: 24%;
     }
     .navbar-toggler {
       position: relative;
-      left: 90%;
+      left: 85%;
       margin-top: -19%;
     }
     .offer-img {
