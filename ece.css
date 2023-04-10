@@ -52,76 +52,75 @@ ul {
         width: 100%;
     }
     .offer-img1 {
-      width: 70px !important;
-     position: absolute !important;
-     left: -12%;
+      width: 50px !important;
+      margin-left: -40%;
     }
     li {
       font-size: 10px;
       margin-right: 13% !important;
-  }
-  .last-li{
-      font-size: 16px;
-  }
-  h1 {
-      font-size: 35px !important;
-  }
-  .menu-btn {
-      margin-top: 2%;
-  }
-  .menu-text {
-      font-size: 10px;
-  }
-  .nav-item {
-      font-size: 15px;
-  }
-  .search-btn {
-     width: 6rem !important;
-     position: relative;
-     right: 3%;
-  }
-  .cart-btn {
-    margin-right: 10% !important; 
-    position: relative;
-    right:16%;
-    width: 5rem;
-  }
-  .text-cart {
-    font-size: 12px !important;
-  }
-  .like-btn {
-    position: relative;
-    right: 24%;
-  }
-  .contact-btn {
-    position: relative;
-    right: 30%;
-  }
-  .navbar-toggler {
-    position: relative;
-    left: 80%;
-    margin-top: -19%;
-  }
-  .offer-img {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    left: 55%;
-    top: 31%;
-  }
-  h3 {
-    text-align: center !important;
-  }
-  .features-products {
-    width: 385px;
-  }
-  h4 {
-    margin-left: 8%;
-    margin-top: -21% !important;
-  }
-  .news-text {
-    margin-top: -20%;
-  }
+    }
+    .last-li{
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 35px !important;
+    }
+    .menu-btn {
+        margin-top: 2%;
+    }
+    .menu-text {
+        font-size: 10px;
+    }
+    .nav-item {
+        font-size: 15px;
+    }
+    .search-btn {
+      width: 6rem !important;
+      position: relative;
+      right: 3%;
+    }
+    .cart-btn {
+      margin-right: 10% !important; 
+      position: relative;
+      right:16%;
+      width: 5rem;
+    }
+    .text-cart {
+      font-size: 12px !important;
+    }
+    .like-btn {
+      position: relative;
+      right: 24%;
+    }
+    .contact-btn {
+      position: relative;
+      right: 30%;
+    }
+    .navbar-toggler {
+      position: relative;
+      left: 80%;
+      margin-top: -19%;
+    }
+    .offer-img {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      left: 55%;
+      top: 31%;
+    }
+    h3 {
+      text-align: center !important;
+    }
+    .features-products {
+      width: 385px;
+    }
+    h4 {
+      margin-left: 8%;
+      margin-top: -21% !important;
+    }
+    .news-text {
+      margin-top: -20%;
+    }
 
   }
     
