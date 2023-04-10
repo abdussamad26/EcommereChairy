@@ -39,14 +39,6 @@ ul {
     right: 0;
     padding-right: 20px;
   }
-  .offer-img {
-    position: relative!important;
-    top: 25%;
-  }
-  .offer-img1 {
-    position: relative!important;
-    left: 56%;
-  }
 @media (max-width : 767px) {
     .banner-img {
         width: 100%;
