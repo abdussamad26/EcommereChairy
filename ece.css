@@ -53,7 +53,7 @@ ul {
     }
     .offer-img1 {
       width: 50px !important;
-      margin-left: -40%;
+      display: none;
     }
     li {
       font-size: 10px;
