@@ -43,10 +43,6 @@ ul {
     .banner-img {
         width: 100%;
     }
-    .offer-img1 {
-      width: 50px !important;
-      display: none;
-    }
     li {
       font-size: 10px;
       margin-right: 13% !important;
