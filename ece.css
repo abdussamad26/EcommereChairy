@@ -11,11 +11,16 @@ ul {
   .owl-carousel:hover .owl-buttons {
     display: block;
   }
+  button.owl-next,
+  button.owl-prev {
+    background-color: #0CAFFF !important;
+    width: 50px;
+    height: 30px;
+  }
   
   .owl-item {
     text-align: center;
   }
-  
   .owl-theme .owl-controls .owl-buttons div {
     background: transparent;
     color: #869791;
@@ -34,9 +39,20 @@ ul {
     right: 0;
     padding-right: 20px;
   }
+  .offer-img {
+    position: relative!important;
+    top: 25%;
+  }
+  .offer-img1 {
+    position: relative!important;
+    left: 56%;
+  }
 @media (max-width : 767px) {
     .banner-img {
         width: 100%;
+    }
+    .offer-img1 {
+      width: 70px !important;
     }
     li {
         font-size: 10px;
@@ -90,5 +106,18 @@ ul {
       height: 100px;
       left: 55%;
       top: 31%;
+    }
+    h3 {
+      text-align: center !important;
+    }
+    .features-products {
+      width: 385px;
+    }
+    h4 {
+      margin-left: 8%;
+      margin-top: -21% !important;
+    }
+    .news-text {
+      margin-top: -20%;
     }
 }
